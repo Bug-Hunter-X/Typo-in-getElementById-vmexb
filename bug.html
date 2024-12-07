@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Uncommon HTML Error</title>
+</head>
+<body>
+  <p>This is a paragraph.</p>
+  <div id="myDiv">
+    This is some text inside a div.
+  </div>
+  <script>
+    //Incorrect way to select the div
+    let divElement = document.getElementbyId("myDiv");  
+    divElement.innerHTML = "Div content changed."; 
+  </script>
+</body>
+</html>
